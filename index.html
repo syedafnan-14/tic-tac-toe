@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <main>
+        <h2>TIC-TAC-TOE</h2>
+        <div class="container">
+            <div class="left">
+                <div class="grid-items"></div>
+                <div class="grid-items"></div>
+                <div class="grid-items"></div>
+                <div class="grid-items"></div>
+                <div class="grid-items"></div>
+                <div class="grid-items"></div>
+                <div class="grid-items"></div>
+                <div class="grid-items"></div>
+                <div class="grid-items"></div>
+            </div>
+            <div class="right">
+                <div class="con">
+                    <div class="turn active"></div><span>Player 1</span>
+                </div>
+                <div class="con">
+                    <div class="turn"></div><span>Player 2</span>
+                </div>
+                <div id="result"></div>
+                <button type="reset" onclick="resetGame()">Reset</button>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
